@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+h2 {
+    color: #007bff;
+}
+
+#palavra {
+    font-size: 2em;
+    letter-spacing: 10px;
+    margin: 20px 0;
+}
+
+#forca {
+    font-family: monospace;
+    white-space: pre;
+    margin: 20px auto;
+}
+
+#teclado {
+    margin: 20px auto;
+    max-width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5px;
+}
+
+.tecla {
+    width: 40px;
+    height: 40px;
+    font-size: 1.1em;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    background: #007bff;
+    color: white;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.tecla:hover:not(:disabled) {
+    background: #0056b3;
+}
+
+.tecla:disabled {
+    background: #ccc;
+    cursor: not-allowed;
+}
+
+button {
+    font-size: 1em;
+    margin: 15px;
+    padding: 8px 15px;
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+    background: #007bff;
+    color: white;
+}
+
+button:hover {
+    background: #0056b3;
+}
